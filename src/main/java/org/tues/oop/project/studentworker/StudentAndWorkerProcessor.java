@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class StudentAndWorkerProcessor {
 
+  static Scanner scanner = new Scanner(System.in);
+
   public static void main(String[] args) {
     Student student = createStudent();
     Worker worker = createWorker();
@@ -14,8 +16,6 @@ public class StudentAndWorkerProcessor {
     printStudent(student);
     printWorker(worker);
   }
-
-  static Scanner scanner = new Scanner(System.in);
 
   private static Student createStudent() {
 
